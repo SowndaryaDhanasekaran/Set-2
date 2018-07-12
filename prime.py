@@ -5,7 +5,9 @@ if(number<=1000):
       flag=1
     else:
       flag=0
-  if(flag==0):
-    print("yes")
-  else:
+  if(flag==1):
     print("no")
+  else:
+    print("yes")
+else:
+  print("no")
